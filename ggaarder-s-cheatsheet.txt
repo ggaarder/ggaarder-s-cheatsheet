@@ -134,3 +134,18 @@ BetterOS.org/index:
 Wikibooks, the open-content textbooks collection that anyone can edit.
 
 Freenode: #wikibooks-zh
+
+# Pieces
+
+## Flute
+
+- Paganini: Variations on A Theme by Rossini
+
+## Guitar
+
+- Tarantella (Italian)
+- Variation on a Theme of Mozart (Sor)
+
+# Novels
+
+- English Patient
