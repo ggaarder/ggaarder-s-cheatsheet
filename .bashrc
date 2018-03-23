@@ -17,7 +17,7 @@ PS2='> '
 # Mine #
 ########
 export PATH="$HOME/home/mine/bin:$PATH:/usr/local/bin/x86_64-pc-linux-gnu/"
-export LD_LIBRARY_PATH="$LD_LIBRARY_PATH:/usr/local/lib:/usr/local/lib64/"
+export LD_LIBRARY_PATH="$LD_LIBRARY_PATH:/usr/local/lib:/usr/local/lib64/:/usr/lib"
 export PKG_CONFIG_PATH="$PKG_CONFIG_PATH:/usr/local/lib/pkgconfig"
 
 export NLTK_DATA="$NLTK_DATA:$HOME/home/download/nltk_data"
