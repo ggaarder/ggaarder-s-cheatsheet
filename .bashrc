@@ -43,6 +43,10 @@ HISTSIZE=9999999999
 alias ls=ls
 alias astyle="astyle --style=linux"
 
+function basename {
+    echo "${1##*/}" 
+}
+    
 # read-only emacs
 function emacsro {
     emacs $1 --eval '(setq buffer-read-only t)'
@@ -56,4 +60,3 @@ function rpmfind {
     l="https://rpmfind.net/linux/rpm2html/search.php?query="
     www.sh "$l$1&arch=i686"
 }
-    
