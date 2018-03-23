@@ -1,7 +1,7 @@
 # Setup color scheme <brokenman> for list call
-# alias ll='/bin/ls --color=auto -lF'
-# alias la='/bin/ls --color=auto -axF'
-# alias ls='/bin/ls --color=auto -xF'
+alias ll='/bin/ls --color=auto -lF'
+alias la='/bin/ls --color=auto -axF'
+alias ls='/bin/ls --color=auto -xF'
 
 # Append any additional sh scripts found in /etc/profile.d/:
 for y in /etc/profile.d/*.sh ; do [ -x $y ] && . $y; done
@@ -40,7 +40,6 @@ HISTTIMEFORMAT="%c "
 HISTFILESIZE=9999999999
 HISTSIZE=9999999999
 
-alias ls=ls
 alias astyle="astyle --style=linux"
 
 # read-only emacs
