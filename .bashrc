@@ -41,6 +41,7 @@ HISTFILESIZE=9999999999
 HISTSIZE=9999999999
 
 alias ls=ls
+alias astyle="astyle --style=linux"
 
 # read-only emacs
 function emacsro {
