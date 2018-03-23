@@ -1,0 +1,14 @@
+Why Insist on the 80 Line Limit Instead of Using Line-wrapping
+
+Line-wrapping works great in X, however not in terminal. It will look at this:
+
+```
+                                (unsigned char*)foobuffer[i*j + k] = l*m + fac\
+(n)
+```
+
+Can you notice the slash at the end of the first line? It is the
+"line-continue" sign, for example, in Emacs.
+
+And when you tried to this line using X, let's assuming you are using a virtual
+terminal in X, the slash will be taken to where it is pasted.
