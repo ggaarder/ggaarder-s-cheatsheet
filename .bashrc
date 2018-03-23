@@ -50,5 +50,6 @@ function emacsro {
 
 function rpmfind {
     l="https://rpmfind.net/linux/rpm2html/search.php?query="
-    www.sh "$l$1"
+    www.sh "$l$1&arch=i686"
 }
+    
