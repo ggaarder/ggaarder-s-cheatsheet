@@ -47,3 +47,8 @@ alias astyle="astyle --style=linux"
 function emacsro {
     emacs $1 --eval '(setq buffer-read-only t)'
 }
+
+function rpmfind {
+    l = "https://rpmfind.net/linux/rpm2html/search.php?query="
+    www.sh "${l}$1"
+}
