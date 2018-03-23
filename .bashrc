@@ -48,6 +48,10 @@ function emacsro {
     emacs $1 --eval '(setq buffer-read-only t)'
 }
 
+function wikipedia {
+    www.sh "http://en.wikipedia.org/wiki/$1"
+}
+
 function rpmfind {
     l="https://rpmfind.net/linux/rpm2html/search.php?query="
     www.sh "$l$1&arch=i686"
