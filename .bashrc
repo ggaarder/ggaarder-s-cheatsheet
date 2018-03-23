@@ -57,3 +57,11 @@ function rpmfind {
     www.sh "$l$1&arch=i686"
 }
 
+function rpminst {
+    l="$1"
+    dl.sh $l
+    a=`cached-at $l`
+    cd `dirname $a`
+    b=`basename -s .rpm $a`
+    rpm2xzm "$b.rpm" && activate "$b.xzm"
+}
