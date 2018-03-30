@@ -40,7 +40,7 @@ HISTTIMEFORMAT="%c "
 HISTFILESIZE=9999999999
 HISTSIZE=9999999999
 
-alias astyle="astyle --style=linux"
+alias myastyle="astyle --style=linux --max-code-length=80"
 
 # read-only emacs
 function emacsro {
