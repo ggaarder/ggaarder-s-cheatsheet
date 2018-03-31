@@ -3,5 +3,12 @@
 - `openvt` to run a program on a new virtual console
 - `bg` fg but in background
 - `mount -o ro`
-- `${i//xxx}` to remove from the tail. e.g.
-  `for i in *.mp3; do ffmpeg -i $i ${i//.mp3}.ogg; done`
+
+## Shell Parameter Expansion
+
+- `${parameter/pattern/string}` replace pattern with string. If pattern
+begins with '/', all matches are replaced, or only the first.
+
+See also [bashref][bashref].
+
+[bashref]: http://www.gnu.org/software/bash/manual/bashref.html
