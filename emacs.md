@@ -28,3 +28,7 @@
 - `C-x C-f` to find a file
 - `C-x C-b` to list buffers
 - `C-x b something` to switch buffer
+
+## Internet
+
+- `M-x package-`
