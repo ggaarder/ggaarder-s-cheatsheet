@@ -20,6 +20,8 @@
 
 - *invsqrt* in Quake 3 Arena
 
+## www-s.acm.illinois.edu/webmonkeys/book/c_guide
+
 # Wikibooks
 
 Wikibooks, the open-content textbooks collection that anyone can edit.
