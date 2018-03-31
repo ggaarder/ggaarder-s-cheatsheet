@@ -10,3 +10,7 @@ You can mount a dd'd file. Like:
   $ sudo umount /mnt/sdd
   $ sudo mkdir /mnt/sdd
   $ sudo mount -o ro ipod_180331.dd /mnt/sdd
+  
+## Compile with TCC
+
+    $ ./configure CC=tcc
