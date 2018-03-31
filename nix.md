@@ -14,3 +14,7 @@ You can mount a dd'd file. Like:
 ## Compile with TCC
 
     $ ./configure CC=tcc
+
+## Convert Medias with FFMPEG
+
+    $ ffmpeg -i input.mp4 output.avi
