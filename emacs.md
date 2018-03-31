@@ -32,3 +32,7 @@
 ## Internet
 
 - `M-x package-`
+
+## Binary Mode
+
+- `M-x hexl-mode`
