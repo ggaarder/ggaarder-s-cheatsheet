@@ -28,3 +28,9 @@ Using GhostScript:
 or using ImageMagick:
 
     $ convert -colorspace GRAY color.pdf gray.pdf
+
+## Convert PDF to Image-Based Ones
+
+    $ pdftoppm -r 300 text.pdf | convert -page A4 - text.pdf.ppm.pdf
+
+> This converts to a pixel-based format and increases file size significantly (10x for my test case).
