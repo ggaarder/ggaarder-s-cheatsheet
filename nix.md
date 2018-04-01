@@ -18,3 +18,13 @@ You can mount a dd'd file. Like:
 ## Convert Medias with FFMPEG
 
     $ ffmpeg -i input.mp4 output.avi
+
+## Grayscalize a PDF
+
+Using GhostScript:
+
+    $ gs -sOutputFile=output.pdf -sDEVICE=pdfwrite -sColorConversionStrategy=Gray -dProcessColorModel=/DeviceGray -dCompatibilityLevel=1.4 -dNOPAUSE -dBATCH input.pdf
+
+or using imagemagick:
+
+    $ convert -colorspace GRAY color.pdf gray.pdf
