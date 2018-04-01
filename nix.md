@@ -25,6 +25,6 @@ Using GhostScript:
 
     $ gs -sOutputFile=output.pdf -sDEVICE=pdfwrite -sColorConversionStrategy=Gray -dProcessColorModel=/DeviceGray -dCompatibilityLevel=1.4 -dNOPAUSE -dBATCH input.pdf
 
-or using imagemagick:
+or using ImageMagick:
 
     $ convert -colorspace GRAY color.pdf gray.pdf
