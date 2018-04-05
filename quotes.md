@@ -32,3 +32,9 @@ Ready Player One, Chapter 18:
 > “Yes I do,” I insisted. “I know you better than I’ve ever known anyone in my entire life.”
 > 
 > “You only know what I want you to know. You only see what I want you to see.” She placed a hand on her chest. “This isn’t my real body, Wade. Or my real face.”
+
+[Michael Nielsen's Neural Networks and Deep Learning](nndl), What this book is about:
+
+> Neural networks are one of the most beautiful programming paradigms ever invented. In the conventional approach to programming, we tell the computer what to do, breaking big problems up into many small, precisely defined tasks that the computer can easily perform. By contrast, in a neural network we don't tell the computer how to solve our problem. Instead, it learns from observational data, figuring out its own solution to the problem at hand.
+
+[nndl]: neuralnetworksanddeeplearning.com
