@@ -18,3 +18,17 @@ BetterOS.org/index:
 > How do programmers get away with writing such bad code, you ask? They don't care, and many of them believe that computers are so fast now that no one will notice. Unfortunately, nobody is noticing, but the only reason is because nobody knows what good software looks like anymore. Computers 20 years ago could run with 4 megabytes of memory and less than 20 megabytes of hard drive storage, now we have 3 terabyte hard drives, or solid state drives, and 16 gigabytes of memory, and we still use all of it. We don't do new things, we watch videos, write documents, browse the web, so why do we need all that RAM and hard drive space?
 >
 > Because application programming has gone to hell.
+
+Ready Player One, Chapter 18:
+
+> And then, before I could stop myself, the words just came out.
+> 
+> “I’m in love with you, Arty.”
+> 
+> She didn’t respond at first. She just looked at me in shock as our avatars continued to drift in orbit around each other, moving on autopilot. Then she switched to a private voice channel, so no one could eavesdrop on our conversation.
+> 
+> “You aren’t in love with me, Z,” she said. “You don’t even know me.”
+> 
+> “Yes I do,” I insisted. “I know you better than I’ve ever known anyone in my entire life.”
+> 
+> “You only know what I want you to know. You only see what I want you to see.” She placed a hand on her chest. “This isn’t my real body, Wade. Or my real face.”
