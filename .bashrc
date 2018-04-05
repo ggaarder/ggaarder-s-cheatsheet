@@ -67,6 +67,5 @@ function rpminst {
 
 function cfunc {
     l="http://pubs.opengroup.org/onlinepubs/9699919799/functions/$1.html"
-    offline-browser.sh $l
-    www.sh $l
+    offline-browser.sh $l || www.sh $l
 }
