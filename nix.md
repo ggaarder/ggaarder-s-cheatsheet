@@ -1,3 +1,21 @@
+# Subscribe to comp.lang.c
+
+> You would need to connect to an NNTP server before you can subscribe to the comp.lang.c newsgroup. They used to come with service from your ISP but that is quite rare these days, but could be simple as news.yourprovidername.com. Or perhaps there's a free NNTP server out there?
+>
+> Next, once you have a NNTP server name, enter that name for Server Name (where the screenshot now erroneously shows the group name comp.lang.c).
+>
+> Finally, Thunderbird will show you a list of all groups, where you can select the group(s) you want.
+> 
+> Otherwise you could use Google Groups in your browser.
+>
+> answered Nov 14 '10 at 7:22
+>
+> I could suggest Eternal September and Aioe.org. (Note that since Aioe.org does not require registration, posts from it are likely to be blocked by other Usenet servers.) – grawity Nov 14 '10 at 13:12 
+
+by [fideli](https://superuser.com/users/19999/fideli) at [How to subscribe to comp.lang.c using Mozilla Thunderbird?](https://superuser.com/questions/210665/how-to-subscribe-to-comp-lang-c-using-mozilla-thunderbird)
+
+commented by [grawity](https://superuser.com/users/1686/grawity)
+
 # Multi Desktop
 
 You can switch to another virtual terminal and `statrx` to get more desktops.
