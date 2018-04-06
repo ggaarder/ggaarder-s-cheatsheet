@@ -36,3 +36,11 @@
 ## Binary Mode
 
 - `M-x hexl-mode`
+
+## Macro
+
+- `C-x (` start recording
+- `C-x )` stop recording
+- `C-x e` play the last record
+- `C-x C-k n` name the macro
+- `M-x name-of-macro` play back
