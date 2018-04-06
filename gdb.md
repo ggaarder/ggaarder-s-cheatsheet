@@ -69,3 +69,22 @@ $65 = {{a = 0, z = 0, theta = 0, arg = 0xc44, gradient = 0x6099c0}, {a = 0,
     gradient = 0x60fc40}, {a = 0, z = 0, theta = 0, arg = 0x7aa8, 
     gradient = 0x610890}}
 ```
+
+# Access mmap'd memory
+
+We can't. 
+
+> GDB will be using ptrace to poke around in your process's memory ... answered Mar 22 '09 at 15:58
+by [Logan Capaldo](http://stackoverflow.com/users/61289/logan-capaldo) at [Examining mmaped addresses using GDB](http://stackoverflow.com/questions/654393/examining-mmaped-addresses-using-gdb)
+
+> About why gdb cannot access the memory you want, I believe Linux does not make I/O memory accessible via ptrace().
+> 
+> According to cmemk.c (which I found in linuxutils_2_25.tar.gz), mmap() does indeed set the VM_IO flag on the memory in question.
+>
+> To access this memory from gdb, add a function to your program that reads this memory and have gdb call this function.
+>
+> edited Sep 3 '10 at 23:43
+> 
+> answered Sep 3 '10 at 23:22
+
+by [sigjuice](http://stackoverflow.com/users/78720/sigjuice) at [GDB can't access mmap()'d kernel allocated memory?](http://stackoverflow.com/questions/3640095/gdb-cant-access-mmapd-kernel-allocated-memory)
