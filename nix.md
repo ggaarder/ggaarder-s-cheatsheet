@@ -1,5 +1,7 @@
 # Subscribe to comp.lang.c
 
+For client, we don't need the huge GUI stuff. Just use Gnus. Inside Emacs type `M-x gnus`.
+
 > You would need to connect to an NNTP server before you can subscribe to the comp.lang.c newsgroup. They used to come with service from your ISP but that is quite rare these days, but could be simple as news.yourprovidername.com. Or perhaps there's a free NNTP server out there?
 >
 > Next, once you have a NNTP server name, enter that name for Server Name (where the screenshot now erroneously shows the group name comp.lang.c).
