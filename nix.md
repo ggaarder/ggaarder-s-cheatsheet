@@ -15,6 +15,15 @@ You can mount a dd'd file. Like:
 
     $ ./configure CC=tcc
 
+# Disassemble
+
+> objdump -D -b binary -mi386 -Maddr16,data16 mbr
+>
+> answered Nov 15 '09 at 9:42
+
+by [hlovdal](https://stackoverflow.com/users/23118/hlovdal) at [How do I disassemble raw x86 code?](https://stackoverflow.com/questions/1737095/how-do-i-disassemble-raw-x86-code)
+
+
 # Get a core dump
 
 > This depends on what shell you are using. If you are using bash, then the ulimit command controls several settings relating to program execution, such as whether you should dump core. If you type
