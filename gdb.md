@@ -53,3 +53,19 @@ $63 = {8.40779079e-45, 1.098618e-42, 2.80259693e-44, 0.406931609, 0.135916978,
   0.162092611, 0.941733539, 0.815516829, 0.0830601752, 0.157517731, 
   0.933927119, 0.0277412329, 0.0221110452, 0.511853158}
 ```
+
+Another:
+
+```
+(gdb) p *neurons[1]@10
+$65 = {{a = 0, z = 0, theta = 0, arg = 0xc44, gradient = 0x6099c0}, {a = 0, 
+    z = 0, theta = 0, arg = 0x1888, gradient = 0x60a610}, {a = 0, z = 0, 
+    theta = 0, arg = 0x24cc, gradient = 0x60b260}, {a = 0, z = 0, theta = 0, 
+    arg = 0x3110, gradient = 0x60beb0}, {a = 0, z = 0, theta = 0, arg = 0x3d54, 
+    gradient = 0x60cb00}, {a = 0, z = 0, theta = 0, arg = 0x4998, 
+    gradient = 0x60d750}, {a = 0, z = 0, theta = 0, arg = 0x55dc, 
+    gradient = 0x60e3a0}, {a = 0, z = 0, theta = 0, arg = 0x6220, 
+    gradient = 0x60eff0}, {a = 0, z = 0, theta = 0, arg = 0x6e64, 
+    gradient = 0x60fc40}, {a = 0, z = 0, theta = 0, arg = 0x7aa8, 
+    gradient = 0x610890}}
+```
