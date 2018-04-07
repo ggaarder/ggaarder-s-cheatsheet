@@ -24,9 +24,7 @@ You can switch to another virtual terminal and `statrx` to get more desktops.
 
 # Eject CD
 
-```
-eject /dev/cdrom0
-```
+Just `eject`. If you want to specify which to eject, you can do things like `eject /dev/cdrom0`.
 
 # Mount DD
 
