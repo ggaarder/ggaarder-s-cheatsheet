@@ -22,6 +22,12 @@ commented by [grawity](https://superuser.com/users/1686/grawity)
 
 You can switch to another virtual terminal and `statrx` to get more desktops.
 
+# Eject CD
+
+```
+eject /dev/cdrom0
+```
+
 # Mount DD
 
 You can mount a dd'd file. Like:
