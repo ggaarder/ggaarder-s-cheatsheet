@@ -69,3 +69,7 @@ function cfunc {
     l="http://pubs.opengroup.org/onlinepubs/9699919799/functions/$1.html"
     offline-browser.sh $l || www.sh $l
 }
+
+function lszip {
+    find $1 -type f \( -name "*.gz" -o -name "*.tar" -o -name "*.zip" -o -name "*.bz2" -o -name "*.lzma" -o -name "*.iso" -o -name "*.isz" -o -name "*.rar" -o -name "*.7z" \) -exec 7z l {} \;
+}
