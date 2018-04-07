@@ -24,7 +24,9 @@ You can switch to another virtual terminal and `statrx` to get more desktops.
 
 # Eject CD
 
-Just `eject`. If you want to specify which to eject, you can do things like `eject /dev/cdrom0`.
+Just `eject`. It would help you to umount automatically, if you are root.
+
+If you want to specify which to eject, you can do things like `eject /dev/cdrom0`.
 
 # Mount DD
 
