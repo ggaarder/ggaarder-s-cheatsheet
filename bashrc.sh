@@ -81,3 +81,9 @@ function lszip {
 function lndl {
     ln -s `cached-at $1`
 }
+
+function dllndlrfcpdf {
+    LNK="https://tools.ietf.org/pdf/rfc$1.pdf"
+    dl.sh $LNK
+    lndl $LNK
+}
