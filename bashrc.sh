@@ -73,3 +73,7 @@ function cfunc {
 function lszip {
     find $1 -type f \( -name "*.gz" -o -name "*.tar" -o -name "*.zip" -o -name "*.bz2" -o -name "*.lzma" -o -name "*.iso" -o -name "*.isz" -o -name "*.rar" -o -name "*.7z" \) -exec 7z l {} \;
 }
+
+function lndl {
+    ln -s `cached-at $1`
+}
