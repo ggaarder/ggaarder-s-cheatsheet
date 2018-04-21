@@ -51,6 +51,10 @@ function wikipedia {
     www.sh "http://en.wikipedia.org/wiki/$1"
 }
 
+function wikip {
+    www.sh "http://en.wikipedia.org/w/index.php?title=$1&printable=yes"
+}
+
 function rpmfind {
     l="https://rpmfind.net/linux/rpm2html/search.php?query="
     www.sh "$l$1&arch=i686"
