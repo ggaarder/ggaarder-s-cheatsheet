@@ -87,3 +87,10 @@ function dllndlrfcpdf {
     dl.sh $LNK
     lndl $LNK
 }
+
+# since tesseract needs a newer vesion of glibc
+# see stackoverflow.com/a/851229/50617
+# great many thanks to msb for patchelf. That's how we solve problems: just do
+# it from the bottom.
+# great many thanks to PiedPiper for the idea of LD_PRELOAD.
+alias mytessseract="LD_PRELOAD=/lib/x86_64-linux-gnu/libm-2.27.so tesseract"
