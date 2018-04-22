@@ -93,4 +93,4 @@ function dllndlrfcpdf {
 # great many thanks to msb for patchelf. That's how we solve problems: just do
 # it from the bottom.
 # great many thanks to PiedPiper for the idea of LD_PRELOAD.
-alias mytessseract="LD_PRELOAD=/lib/x86_64-linux-gnu/libm-2.27.so tesseract"
+alias mytesseract="LD_PRELOAD=/lib/x86_64-linux-gnu/libm-2.27.so tesseract"
