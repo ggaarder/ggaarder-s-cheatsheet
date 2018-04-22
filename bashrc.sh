@@ -94,3 +94,7 @@ function dllndlrfcpdf {
 # it from the bottom.
 # great many thanks to PiedPiper for the idea of LD_PRELOAD.
 alias mytesseract="LD_PRELOAD=/lib/x86_64-linux-gnu/libm-2.27.so tesseract"
+
+# www.cyberciti.biz/faq/how-do-i-find-the-largest-filesdirectories-on-a-linuxunixbsd-filesystem
+# get top files/dirs eating your disk space 
+alias ducks='du -cks * | sort -rn'
